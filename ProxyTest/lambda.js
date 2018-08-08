@@ -14,6 +14,6 @@ exports.handler = function (event, context, callback) {
         "headers": {
             "myHeader": "foo"
         },
-        "body": JSON.stringify(response);
+        "body": JSON.stringify(response)
     });
 }
